@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BasicLayouts</string>
+    <string name="frame_layout_btn">Frame layout</string>
+    <string name="linear_layout_btn">Linear layout</string>
+    <string name="linear_layout_form_btn">Linear layout [Form]</string>
+    <string name="vs_text">vs.</string>
+    <string name="send_button_label">send</string>
+    <string name="clear_button_label">clear</string>
+    <string name="cancel_button_label">cancel</string>
+    <string name="to_field_hint">To</string>
+    <string name="to_field">To:</string>
+    <string name="subject_field_hint">Subject</string>
+    <string name="name_field_hint">Name</string>
+    <string name="surname_field_hint">Surname</string>
+    <string name="message_field_hint">Message</string>
+    <string name="message_field">Message:</string>
+    <string name="from_text">From:</string>
+    <string name="email_irconde">irconde@ualr.edu</string>
+    <string name="short_lorem_ipsum">Lorem ipsum dolor sit amet</string>
+    <string name="long_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="email_field_hint">email</string>
+    <string name="linear_weights_options">Different-weighted children</string>
+    <string name="linear_same_weight_option">Equals-weighted children</string>
+    <string name="linear_dividers">Dividers</string>
+</resources>

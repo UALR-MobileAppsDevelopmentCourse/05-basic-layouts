@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO 01. We want to overlap an image to a different one -->
+    <!-- TODO 03. Add an image background to the parent view-->
+    <!-- TODO 05. We add an image overlay to the composition -->
+    <!-- TODO 06. We make the overlay to have the same width as the FrameLayout, and we align it to the top of the latter-->
+
+    <!-- TODO 02. We add a couple of ImageView child components to FrameLayout-->
+    <!-- TODO 04. We center both ImageView component in the parent view -->
+
+</FrameLayout>
