@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/divider_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider"
+        android:dividerPadding="4dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/android_os" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/windows_logo" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/apple_logo" />
+    </LinearLayout>
+</FrameLayout>

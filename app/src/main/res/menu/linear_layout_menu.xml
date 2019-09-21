@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/linear_weights"
+        android:title="@string/linear_weights_options"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/linear_same_weights"
+        android:title="@string/linear_same_weight_option"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/linear_dividers"
+        android:title="@string/linear_dividers"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,148 @@
+<!--TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <ImageView
+            android:background="#fff"
+            android:src="@drawable/apple_logo" />
+
+        <ImageView
+            android:background="#ddd"
+            android:src="@drawable/windows_logo" />
+
+        <ImageView
+            android:background="#ccc"
+            android:src="@drawable/android_os" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:background="#ddd"
+            android:layout_column="1"
+            android:layout_span="2"
+            android:src="@drawable/devices"/>
+    </TableRow>
+</TableLayout-->
+<!-- Shrinking columns -->
+<!--TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*">
+    <TableRow>
+        <ImageView
+            android:background="#fff"
+            android:src="@drawable/apple_logo" />
+
+        <ImageView
+            android:background="#ddd"
+            android:src="@drawable/devices"/>
+
+        <ImageView
+            android:background="#ccc"
+            android:src="@drawable/android_os" />
+    </TableRow>
+</TableLayout-->
+<!-- Stretching columns -->
+<!--TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+    <TableRow>
+        <ImageView
+            android:background="#fff"
+            android:src="@drawable/apple_logo" />
+
+        <ImageView
+            android:background="#ccc"
+            android:src="@drawable/android_os" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:background="#ccc"
+            android:src="@drawable/windows_logo" />
+    </TableRow>
+</TableLayout-->
+<!-- A more complex example -->
+<!--TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="12dp"
+    android:stretchColumns="1"
+    android:shrinkColumns="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:textFontWeight="700"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="@string/from_text"/>
+        <TextView
+            android:id="@+id/email_text"
+            android:textSize="18sp"
+            android:layout_span="3"
+            android:text="@string/email_irconde"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textFontWeight="700"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="@string/to_field"/>
+        <EditText
+            android:layout_span="3"
+            android:hint="@string/to_field_hint" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textFontWeight="700"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="@string/message_field"/>
+        <EditText
+            android:layout_span="3"
+            android:hint="@string/message_field_hint" />
+    </TableRow>
+    <TableRow>
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="@string/cancel_button_label"
+            android:layout_column="2"/>
+        <com.google.android.material.button.MaterialButton
+            android:text="@string/send_button_label"/>
+    </TableRow>
+</TableLayout-->
+<!-- Replacing the relative layout -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:shrinkColumns="1"
+    android:stretchColumns="1">
+    <TableRow>
+        <ImageView
+            android:layout_span="2"
+            android:padding="12dp"
+            android:src="@drawable/devices" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/apple_logo" />
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/long_lorem_ipsum"
+            android:textColor="#aaa"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:src="@drawable/windows_logo"
+            android:layout_height="54dp"
+            android:layout_width="54dp"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/short_lorem_ipsum"
+            android:textColor="#aaa"
+            android:textSize="16sp" />
+    </TableRow>
+</TableLayout>
