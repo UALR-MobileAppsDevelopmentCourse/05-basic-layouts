@@ -33,6 +33,13 @@
             android:text="@string/linear_layout_btn"
             style="@style/Widget.MaterialComponents.Button.TextButton" />
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/linear_layout_form_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonClicked"
+            android:text="@string/linear_layout_form_btn"
+            style="@style/Widget.MaterialComponents.Button.TextButton" />
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/relative_layout_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.linear_layout_btn:
                 resultClass = LinearLayoutActivity.class;
                 break;
+            case R.id.linear_layout_form_btn:
+                resultClass = LinearLayoutFormActivity.class;
+                break;
             case R.id.relative_layout_btn:
                 resultClass = RelativeLayoutActivity.class;
                 break;
