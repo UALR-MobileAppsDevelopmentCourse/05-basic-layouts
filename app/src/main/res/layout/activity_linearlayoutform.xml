@@ -4,14 +4,19 @@
     android:layout_height="match_parent"
     android:layout_margin="24dp"
     android:gravity="center">
+    <!-- TODO 15. Set a fixed value for the height of a couple of components, and distribute the
+    remaining space in a proportional way, so the height of one component is three times the height odf the other one -->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <!-- TODO 16. Set the height of the first child component as wrap_content -->
         <EditText
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:hint="@string/to_field_hint"/>
+        <!-- TODO 18. Set height and weight values to distribute the remaining space on screen in a
+        proportional way: the second EditText's height will be three time the first EditText's height -->
         <EditText
             android:gravity="top"
             android:layout_height="0dp"
@@ -24,6 +29,7 @@
             android:layout_weight="3"
             android:layout_width="match_parent"
             android:hint="@string/message_field_hint"/>
+        <!-- TODO 17. Set the height of the last child component as wrap_content -->
         <com.google.android.material.button.MaterialButton
             android:text="@string/send_button_label"
             android:layout_gravity="end"

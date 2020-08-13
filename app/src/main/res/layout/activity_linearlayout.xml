@@ -4,6 +4,13 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
+    <!-- TODO 07. We want to organize several ImageView components into a single row/column-->
+    <!-- TODO 08. Add three ImageView components as children of the LinearLayout element -->
+    <!-- TODO 09. Define the orientation of the LinearLayout -->
+    <!-- TODO 10. Center the group of images on the screen -->
+    <!-- TODO 11. Enable visibility of dividers in the middle of every pair of images -->
+    <!-- TODO 12. Set the image to be used as divider -->
+    <!-- TODO 13. Add small space on both sides of the divider -->
     <LinearLayout
         android:id="@+id/divider_linear_layout"
         android:layout_width="match_parent"
@@ -14,6 +21,8 @@
         android:orientation="horizontal"
         android:showDividers="middle">
 
+        <!-- TODO 14. Distribute the available horizontal space among the different child components
+        instead of using specific values for their width -->
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"

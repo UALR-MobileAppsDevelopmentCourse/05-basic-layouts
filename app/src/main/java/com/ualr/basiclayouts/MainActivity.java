@@ -4,23 +4,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.textfield.TextInputLayout;
+import com.ualr.basiclayouts.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
     private final static String TAG = MainActivity.class.getSimpleName();
+    private ActivityMainBinding mainBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        mainBinding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(mainBinding.getRoot());
     }
 
     public void onButtonClicked(View view) {
@@ -33,9 +30,6 @@ public class MainActivity extends AppCompatActivity {
     private Class getTargetFromButtonId(int buttonId) {
         Class resultClass = null;
         switch (buttonId) {
-            case R.id.basic_layout_btn:
-                resultClass = LayoutBasicsActivity.class;
-                break;
             case R.id.frame_layout_btn:
                 resultClass = FrameLayoutActivity.class;
                 break;
@@ -44,15 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.linear_layout_form_btn:
                 resultClass = LinearLayoutFormActivity.class;
-                break;
-            case R.id.relative_layout_btn:
-                resultClass = RelativeLayoutActivity.class;
-                break;
-            case R.id.grid_layout_btn:
-                resultClass = GridLayoutActivity.class;
-                break;
-            case R.id.table_layout_btn:
-                resultClass = TableLayoutActivity.class;
                 break;
         }
         return resultClass;

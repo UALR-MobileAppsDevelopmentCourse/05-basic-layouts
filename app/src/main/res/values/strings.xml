@@ -1,12 +1,8 @@
 <resources>
     <string name="app_name">BasicLayouts</string>
-    <string name="layout_basics_btn">Layout basics</string>
     <string name="frame_layout_btn">Frame layout</string>
     <string name="linear_layout_btn">Linear layout</string>
     <string name="linear_layout_form_btn">Linear layout [Form]</string>
-    <string name="relative_layout_btn">Relative layout</string>
-    <string name="grid_layout_btn">Grid layout</string>
-    <string name="table_layout_btn">Table layout</string>
     <string name="vs_text">vs.</string>
     <string name="send_button_label">send</string>
     <string name="clear_button_label">clear</string>
