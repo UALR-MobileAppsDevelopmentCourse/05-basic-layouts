@@ -8,6 +8,6 @@ Simple app with four activities. The main one is just a menu the user can use to
 
 ## Branches
 
-- &lt;ins&gt;1-starter-code.&lt;/ins&gt; It provides a start point just for learning purposes. It includes several TODO comments to guide the development of the changes required to create the code in branch 2-solution.
+- 1-starter-code. It provides a start point just for learning purposes. It includes several TODO comments to guide the development of the changes required to create the code in branch 2-solution.
   
-- &lt;ins&gt;2-solution.&lt;/ins&gt; It provides the code created to showcase the use and properties of FrameLayout and LinearLayout.
+- 2-solution. It provides the code created to showcase the use and properties of FrameLayout and LinearLayout.
